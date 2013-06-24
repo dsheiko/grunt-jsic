@@ -1,0 +1,42 @@
+{
+  "name": "grunt-jsic",
+  "description": "A grunt task for running JS import compiler",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dsheiko/grunt-jsic",
+  "author": {
+    "name": "Dmitry Sheiko",
+    "email": "web.sbelarus@gmail.com",
+    "url": "http://dsheiko.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dsheiko/grunt-jsic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dsheiko/grunt-jsic/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dsheiko/grunt-jsic/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt": "~0.4.1",
+    "jsic": ">0.1.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
