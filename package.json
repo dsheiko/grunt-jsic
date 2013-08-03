@@ -1,5 +1,5 @@
 {
-  "name": "grunt-jsic",
+  "name": "grunt-contrib-jsic",
   "description": "A grunt task for running JS import compiler",
   "version": "0.1.0",
   "homepage": "https://github.com/dsheiko/grunt-jsic",
