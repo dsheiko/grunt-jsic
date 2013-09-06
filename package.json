@@ -28,10 +28,13 @@
   "scripts": {
     "test": "grunt test"
   },
+  "dependencies": {
+    "jsic": ">0.1.0",
+    "grunt-lib-contrib": "~0.6.1"
+  },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.1.1",
-    "grunt": "~0.4.1",
-    "jsic": ">0.1.0"
+    "grunt": "~0.4.1"
   },
   "peerDependencies": {
     "grunt": "~0.4.1"
