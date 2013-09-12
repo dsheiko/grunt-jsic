@@ -21,7 +21,12 @@ module.exports = function(grunt) {
     },
     // Configuration to be run (and then tested).
     jsic: {
-        files: ["./fixture/main.js", "./fixture/build.js"]
+      development: {
+        files: {
+          "./fixture/dest1.js" : "./fixture/src1.js",
+          "./fixture/dest2.js" : "./fixture/src2.js"
+        }
+      }
     }
   });
 
