@@ -14,7 +14,7 @@ var exec = require('child_process').exec;
 module.exports = function( grunt ) {
 
     var compileJsic = function( srcFile, destFile, done ) {
-        var cmd = 'node ./node_modules/jsic/jsic ' + srcFile + ' ' + destFile;
+        var cmd = 'node ./node_modules/grunt-contrib-jsic/node_modules/jsic/jsic ' + srcFile + ' ' + destFile;
         grunt.log.writeln('File ' + destFile.cyan + ' created.');
         grunt.verbose.writeln( 'Exec: ' + cmd );
         exec( cmd, function( err, stdout, stderr ) {
