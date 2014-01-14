@@ -13,20 +13,20 @@ var exec = require('child_process').exec;
 
 module.exports = function( grunt ) {
 
-    var compileJsic = function( srcFile, destFile, done ) {
-        var cmd = 'node ./node_modules/grunt-contrib-jsic/node_modules/jsic/jsic ' + srcFile + ' ' + destFile;
-        grunt.log.writeln('File ' + destFile.cyan + ' created.');
-        grunt.verbose.writeln( 'Exec: ' + cmd );
-        exec( cmd, function( err, stdout, stderr ) {
-          if ( stdout ) {
-              grunt.log.write( stdout );
-          }
-          if ( err ) {
-              grunt.fatal( err );
-          }
-          done();
-        });
-    };
+    var argv = [ "node", "jsic" ],
+				compileJsic = function( srcFile, destFile, done ) {
+					var jsic = require( "jsic" ),
+							cmd = 'node jsic ' + srcFile + ' ' + destFile;
+
+					argv.push( srcFile );
+					argv.push( destFile );
+
+					grunt.log.writeln('File ' + destFile.cyan + ' created.');
+					grunt.verbose.writeln( 'Exec: ' + cmd );
+
+					jsic( argv );
+					done();
+			};
 
 
     grunt.registerMultiTask( 'jsic', 'Run jsic', function() {
