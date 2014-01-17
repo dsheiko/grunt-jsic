@@ -1,7 +1,7 @@
 {
   "name": "grunt-contrib-jsic",
   "description": "A grunt task for running JS import compiler",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "homepage": "https://github.com/dsheiko/grunt-jsic",
   "author": {
     "name": "Dmitry Sheiko",
