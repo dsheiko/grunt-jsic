@@ -29,8 +29,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "jsic": ">=0.1.6",
-    "grunt-lib-contrib": "~0.6.1"
+    "jsic": ">=0.1.6"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.1.1",
