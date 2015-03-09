@@ -1,6 +1,9 @@
 # grunt-jsic
 
-> A grunt task for running js import compiler (https://github.com/dsheiko/jsic)
+A grunt task for running js import compiler (https://github.com/dsheiko/jsic)
+
+> Note: This used to be called 'grunt-contrib-jsic' in the npm registry, but as of version 0.2.5 it has taken over the 'grunt-jsic' name.
+
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
@@ -53,4 +56,4 @@ grunt.initConfig({
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/4dd81c278569d1b4a772c3f89019f7fe "githalytics.com")](http://githalytics.com/dsheiko/grunt-jsic)
+[![Analytics](https://ga-beacon.appspot.com/UA-1150677-13/dsheiko/grunt-jsic)](http://githalytics.com/dsheiko/grunt-jsic)
