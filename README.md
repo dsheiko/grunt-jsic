@@ -1,5 +1,9 @@
 # grunt-jsic
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+> WARNING - THIS PROJECT IS NO LONGER MAINTAINED!!!
+
 A grunt task for running js import compiler (https://github.com/dsheiko/jsic)
 
 > Note: This used to be called 'grunt-contrib-jsic' in the npm registry, but as of version 0.2.5 it has taken over the 'grunt-jsic' name.
